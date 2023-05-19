@@ -1,4 +1,4 @@
-package day14_TestNGFrameworkOlusturma;
+package tests.day14_TestNGFrameworkOlusturma;
 
 
 import org.testng.Assert;

@@ -1,4 +1,4 @@
-package day14_TestNGFrameworkOlusturma;
+package tests.day14_TestNGFrameworkOlusturma;
 import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 public class C02_Ignore {
