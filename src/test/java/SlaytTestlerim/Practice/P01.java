@@ -1,4 +1,4 @@
-package tests.Practice;
+package SlaytTestlerim.Practice;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

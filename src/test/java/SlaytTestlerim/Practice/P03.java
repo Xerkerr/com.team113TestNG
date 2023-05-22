@@ -1,4 +1,4 @@
-package tests.Practice;
+package SlaytTestlerim.Practice;
 //https://www.saucedemo.com/ adresine gidin
 //Kullanıcı adını standart_kullanıcı olarak girin
 //Parolayı secret_sauce olarak girin
