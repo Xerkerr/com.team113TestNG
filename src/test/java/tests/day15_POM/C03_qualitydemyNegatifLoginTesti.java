@@ -1,6 +1,5 @@
 package tests.day15_POM;
 
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.QualitydemyPage;
@@ -22,18 +21,18 @@ public class C03_qualitydemyNegatifLoginTesti {
         qualitydemyPage.emailKutusu.sendKeys("selenium");
 
         // password olarak heyecandir yazin
-        qualitydemyPage.passwordKutusu.sendKeys("heyecandır");
 
+        qualitydemyPage.passwordKutusu.sendKeys("heyecandir");
         // login butonuna tiklayin
-        qualitydemyPage.loginButonu.click();
 
+        qualitydemyPage.loginButonu.click();
         // giris yapilamadigini test edin
 
         Assert.assertTrue(qualitydemyPage.emailKutusu.isEnabled());
 
 
         // sayfayi kapatin
-        Driver.closeDriver();
+        // Driver.closeDriver();
     }
 
 }

@@ -1,4 +1,5 @@
 package tests.day15_POM;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.QualitydemyPage;
@@ -6,7 +7,7 @@ import utilities.Driver;
 
 public class C02_qualitydemyLoginTest {
 
-    @Test
+    @Test(groups = "smoke")
     public void test01(){
         // QUALITYDEMY ANA SAYFAYA GIDIN
         Driver.getDriver().get("https://www.qualitydemy.com");
@@ -22,7 +23,6 @@ public class C02_qualitydemyLoginTest {
 
         // basarili olarak giris yapildigini test edin
         Assert.assertTrue(qualitydemyPage.basariliGirisKontrolElementi.isDisplayed());
-
         // sayfayi kapatin
         Driver.closeDriver();
     }

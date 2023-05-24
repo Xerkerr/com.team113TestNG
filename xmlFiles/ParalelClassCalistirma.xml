@@ -14,9 +14,6 @@
      thread-count : ayni anda calisacak browser sayisi
      parallel : gorev paylasiminin hangi level'dan olacagini
      verbose : consol'da otomatik olarak yazilan aciklamalarin kisa(1) veya uzun(10) olmasini kontrol eder
-
-     thread - aynı anda kaç browser istediğimiz
-     parallel - ne bazında yapılacak paraler testler
      -->
 <suite name="Istenen class'lari calistirma" thread-count="2" parallel="classes" verbose="3">
 

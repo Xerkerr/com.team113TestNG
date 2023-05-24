@@ -13,7 +13,7 @@ public class C01_RaporluAmazonSearch extends TestBaseRapor {
     @Test
     public void test01(){
         extentTest= extentReports.createTest("Amazon arama testi",
-                "Kullanici istedigi kelimeyi aratabilmeli");
+                                            "Kullanici istedigi kelimeyi aratabilmeli");
 
         // amazon'a gidin
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));

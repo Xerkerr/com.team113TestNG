@@ -14,10 +14,10 @@ public class C04_DataProviderNegatifLoginTest {
     public static Object[][] YanlisKullaniciAdlariListesi() {
 
         String[][] kullaniciBilgileriArrayi = {{"Memre","12345"},{"Mustafa","23456"},
-                {"Burcu","32456"},{"Cigdem","867453"},
-                {"Ahmet","32567"},{"Kemal","87654"},
-                {"Melike","65747"},{"Cinar","645353"},
-                {"Muleyke","6312"},{"Kadir","19870"}};
+                                                {"Burcu","32456"},{"Cigdem","867453"},
+                                                {"Ahmet","32567"},{"Kemal","87654"},
+                                                {"Melike","65747"},{"Cinar","645353"},
+                                                {"Muleyke","6312"},{"Kadir","19870"}};
 
         return kullaniciBilgileriArrayi;
     }

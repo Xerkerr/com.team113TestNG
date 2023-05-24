@@ -35,7 +35,6 @@ public class C04_DriverIlkTest {
         String actualSonucYazisi= sonucElementi.getText();
         Assert.assertTrue(actualSonucYazisi.contains(expectedIcerik));
 
-
         ReusableMethods.bekle(5);
         Driver.closeDriver();
     }
